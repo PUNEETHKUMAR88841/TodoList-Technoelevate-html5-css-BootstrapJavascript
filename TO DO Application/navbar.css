@@ -1,0 +1,51 @@
+
+body {margin:2}
+
+.icon-bar {
+  width: 150px;
+  background-color: #555;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 25px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+/* .active {
+  background-color: #04AA6D;
+} */
+h3{
+  color: aliceblue;
+  
+}
+h1{
+  position: absolute;
+  right: 25pc;
+  bottom: 30pc;
+  font-weight: bolder;
+  font-display: inherit;
+  font-style: italic;
+  text-shadow: -1px 0 0 rgba(0, 0, 0, .2);
+  font-size: 50px;
+
+}
+.home{
+  position: absolute;
+  right: 30pc;
+  bottom: 10pc;
+  width: 500px;
+  height: 300px;
+}
+.today{
+  position: absolute;
+  right: 50pc;
+  bottom: 30pc;
+}

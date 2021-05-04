@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <link rel="stylesheet" type="text/css" href="navbar.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="navbar.css">
+   <link rel="stylesheet" href="movie.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .nav-link{
+            font-size: 35px;
+        }
+ 
+        #formDiv{
+            position: absolute;
+            right: 65pc;
+            bottom: 30pc;
+        }
+        .header{
+            position: absolute;
+            right: 50pc;
+            bottom: 20pc;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" ><img class="img-write"  src="icons/writemark.jpg" width="50" height="50"> Todo List</a>
+          </li>
+          
+        </ul>
+      </nav>
+      <div class="icon-bar">
+          <a class="active" href="home.html"><i class="fa fa-inbox "> Inbox</i></a> 
+          <a href="today.html"><i class="fa fa-calendar"> Today</i></a> 
+          <a href="week.html"><i class="fa fa-calendar"> ThisWeek</i></a> 
+          <h3>Projects</h3>
+      
+          <a href="studying.html"><i class="fa fa-bars"> Studying</i></a>
+          
+          <a href="movie.html"><i class="fa fa-bars"> Movie-time</i></a>
+          
+          <a href="addingprojects.html"><i class="fa fa-plus"> Add Projects</i></a> 
+          
+        </div>
+
+    <div class="header">
+      <h2 style="margin:5px">Add Projects</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+
+    <ul id="myUL">
+     
+      <li>Studying</li>
+      <li>Movie-time</li>
+      
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+</div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
